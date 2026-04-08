@@ -535,8 +535,7 @@ const QUICK_SETS = {
   welcome: [
     "Voglio diventare wedding planner",
     "Cos'è il Corso Principles?",
-    "Come funziona lo stage?",
-    "C'è un corso online?"
+    "Come funziona lo stage?"
   ],
   afterFirst: [
     "Cosa include il corso in aula?",
@@ -677,7 +676,7 @@ sendBtn.addEventListener('click', () => send());
 
 // ── WELCOME MESSAGE ──
 setTimeout(() => {
-  addMessage('bot', `Ciao! Sono **Vera**, il concierge di Wedding Planners Pro. Sono qui per aiutarti a capire se la carriera da **wedding planner** fa per te — e come Wedding Planners Pro può accompagnarti in questo percorso.\n\nSono tante le domande che si fanno all'inizio: da dove si comincia? Serve esperienza? Quanto ci vuole? È un lavoro vero?\n\nDimmi pure cosa ti frulla in testa — sono qui per risponderti senza filtri. 🌸`);
+  addMessage('bot', `Ciao! Sono **Vera**, il concierge di Wedding Planners Pro. Sono qui per aiutarti a capire se la carriera da **wedding planner** fa per te e accompagnarti in questo percorso.\n\nSono tante le domande che si fanno all'inizio: da dove si comincia? Serve esperienza? Quanto ci vuole? È un lavoro vero?\n\nDimmi pure cosa ti frulla in testa — sono qui per risponderti senza filtri. 🌸`);
   showQuickReplies(QUICK_SETS.welcome);
 }, 600);
 </script>
